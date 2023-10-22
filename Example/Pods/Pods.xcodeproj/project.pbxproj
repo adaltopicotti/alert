@@ -66,7 +66,7 @@
 		B7592106C47B1B651BB593C2F18B8C5E /* Alert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alert.debug.xcconfig; sourceTree = "<group>"; };
 		C6C953F6DB59F834C4D73553FD3C9C71 /* Pods-Alert_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Alert_Example-dummy.m"; sourceTree = "<group>"; };
 		D1A08ECB5DA84CBFF6FA15D576FF8155 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		E792C4FB8C8948329AFBDC9CD57111DB /* AlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertView.swift; path = Alert/Classes/AlertView.swift; sourceTree = "<group>"; };
+		E792C4FB8C8948329AFBDC9CD57111DB /* AlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		F5F176EE811A8E898F282D9F95CDD88B /* Pods-Alert_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Alert_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F946EE93E344A6ABB4D81190ECFD7BA4 /* Pods-Alert_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Alert_Example"; path = Pods_Alert_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF14CB98B1D3623D3D72C906BEACDD96 /* Pods-Alert_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Alert_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -111,7 +111,7 @@
 		0A886DA604F78E7B140BBC1BAFAAD2A9 /* Alert */ = {
 			isa = PBXGroup;
 			children = (
-				E792C4FB8C8948329AFBDC9CD57111DB /* AlertView.swift */,
+				C871D4942AE5A41600BEF45A /* Classes */,
 				87A97F49A8138A31F4555757984592C3 /* Pod */,
 				9E9B01F4849D955FAF6F2884F203AB7B /* Support Files */,
 			);
@@ -169,6 +169,14 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/Alert";
+			sourceTree = "<group>";
+		};
+		C871D4942AE5A41600BEF45A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E792C4FB8C8948329AFBDC9CD57111DB /* AlertView.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
