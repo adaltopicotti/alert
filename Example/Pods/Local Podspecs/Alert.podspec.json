@@ -1,0 +1,22 @@
+{
+  "name": "Alert",
+  "version": "0.1.0",
+  "summary": "A short description of Alert.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/13538187/Alert",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "13538187": "adaltocotti.jr@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/13538187/Alert.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "Alert/Classes/**/*"
+}
