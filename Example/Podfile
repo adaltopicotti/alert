@@ -1,11 +1,11 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '13.0'
 
-target 'Alert_Example' do
+target 'Alert' do
   pod 'Alert', :path => '../'
 
-  target 'Alert_Tests' do
+  target 'Alert' do
     inherit! :search_paths
 
     
